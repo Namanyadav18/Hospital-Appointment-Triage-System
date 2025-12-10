@@ -2,9 +2,9 @@
 **Course:** Data Structures (ENCS205 / ENCA201 / ENBC201)  
 **Assignment:** Capstone Assignment 5  
 **Theme:** Queues, Stacks, Linked Lists, Hash Tables, Heaps  
-**Student Name:**  
-**Roll No.:**  
-**Section:**  
+**Student Name:**Naman Yadav  
+**Roll No.:**  2401010112
+**Section:**  B
 
 ---
 
