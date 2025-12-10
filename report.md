@@ -101,3 +101,60 @@ Undo supports:
 
 Output example:
 
+
+---
+
+## 5. Testing & Edge Cases
+
+- **Queue Full** → booking fails gracefully  
+- **Queue Empty** → safe dequeue  
+- **Heap Empty** → no emergency served  
+- **Undo on empty stack** → safely handled  
+- **Doctor with no free slots** → next slot = None  
+- **Repeated patient visits** → stored in hash table  
+
+---
+
+## 6. Complexity Analysis
+
+| Operation | Time Complexity | Space Complexity |
+|-----------|------------------|------------------|
+| Queue enqueue | O(1) | O(1) |
+| Queue dequeue | O(1) | O(1) |
+| Heap insert | O(log n) | O(n) total |
+| Heap extract-min | O(log n) | O(n) |
+| Hash insert/search | O(1) avg | O(m) |
+| Linked list insert/delete | O(1) | O(k) |
+| Stack push/pop | O(1) | O(u) |
+| Find next free slot | O(k) | O(1) |
+| Report generation | O(k) per doctor | O(1) |
+
+Where:  
+- **n = total emergency patients**  
+- **k = number of doctor slots**  
+- **u = undo actions**  
+- **m = hash table buckets**
+
+---
+
+## 7. Conclusion
+
+This project demonstrates a realistic hospital OPD model using multiple interrelated data structures.  
+The system is modular, efficient, and easy to extend with features such as:
+
+- Persistent storage  
+- GUI-based appointment system  
+- Analytics dashboards  
+
+All assignment requirements—queues, heaps, lists, stacks, hashing, undo, operations, and complexity—are successfully met.
+
+---
+
+## 8. References
+
+- Weiss, *Data Structures and Algorithm Analysis*  
+- Goodrich & Tamassia, *Data Structures and Algorithms in Python*  
+- GeeksforGeeks (queues, stacks, heaps, hashing)
+
+---
+
