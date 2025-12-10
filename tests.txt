@@ -1,0 +1,22 @@
+===========================================
+TEST CASES — Hospital Appointment & Triage System
+===========================================
+
+-------------------------------------------
+TEST 1: Register Patients
+-------------------------------------------
+Input:
+    registerPatient(1, "Alice", 30, severity=50)
+    registerPatient(2, "Bob", 45, severity=20)
+Expected Output:
+    Patients added to hash table
+
+-------------------------------------------
+TEST 2: Add Doctor & Slots
+-------------------------------------------
+Input:
+    addDoctor(1, "Dr. A")
+    addSlotToDoctor(1, 101, "09:00", "09:15")
+    addSlotToDoctor(1, 102, "09:15", "09:30")
+Expected Output:
+    Doctor created with 2 linked list s
