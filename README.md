@@ -1,7 +1,7 @@
 # Hospital Appointment & Triage System
 
 This repository contains a console-based **Hospital Appointment & Triage System** implemented
-in **Python** for the **Data Structures (ENCS205 / ENCA201 / ENBC201)** Capstone Assignment 5.
+in **Python** for the **Data Structures (ENCS205)** Capstone Assignment 5.
 
 ---
 
